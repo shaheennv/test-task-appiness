@@ -1,0 +1,36 @@
+[
+  {    
+    "id" : "1",
+     "name" : "Vincent",
+      "repliedto" : "Shaheen",
+      "postedon" : "3 years ago",
+      "data" : "A good exercise.",
+      "upvote": "3",
+      "downvote": "1",
+      "comments" : {
+        "parentId" : "1",
+        "id" : "c1",
+        "name" : "Vincent",
+        "repliedto" : "Shaheen",
+        "postedon" : "3 years ago",
+        "data" : " exercise.",
+        "comments" : [{
+          "parentId" : "c1",
+          "id" : "c11",
+          "name" : "Vincent",
+          "repliedto" : "Shaheen",
+          "postedon" : "3 years ago",
+          "data" : "Second exercise."
+        },
+         {
+          "parentId" : "c1",
+          "id" : "c12",
+          "name" : "Vincent",
+          "repliedto" : "Shaheen",
+          "postedon" : "3 years ago",
+          "data" : "Third exercise."
+      }
+      ]
+    }
+  }
+]
